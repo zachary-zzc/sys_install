@@ -98,7 +98,9 @@ sudo apt-get install vim
 # set up vim
 echo "set up vim"
 git clone git://github.com/amix/vimrc.git ~/.vim_runtime
+cd .vim_runtime
 chmod a+x install_*
+cd ../
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 # install ctags
 sudo apt-get install ctags
@@ -175,3 +177,6 @@ echo "please add this feature later"
 lspci | grep "VGA"
 
 # set up 3D acceleration for vmware
+
+# system information
+# sudo dmidicode -t system
