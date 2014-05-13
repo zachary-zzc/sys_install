@@ -15,8 +15,8 @@ fi
 
 # upgrade all packages
 echo "upgrade packages"
-# sudo apt-get update
-# sudo apt-get dist-upgrade
+sudo apt-get update
+sudo apt-get dist-upgrade
 
 # install linear algebra libraries
 echo "install linear algebra libraries"
