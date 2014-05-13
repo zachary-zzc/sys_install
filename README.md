@@ -1,1 +1,1 @@
-For system reinstall use
+Setup python, octave, c/c++ develop environment
